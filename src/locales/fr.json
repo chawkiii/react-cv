@@ -1,0 +1,197 @@
+{
+  "personalInfo": {
+    "name": "Chaouki Achouri",
+    "jobTitle": "Développeur Web",
+    "contact": {
+      "email": "achouriichawkii@gmail.com",
+      "github": "https://github.com/chawkiii",
+      "linkedin": "https://www.linkedin.com/in/achouriichawkii/",
+      "whatsapp": "+213561459445"
+    }
+  },
+  "formation": {
+    "title": "Formation",
+    "list": [
+      {
+        "period": "2018 - 2021",
+        "degree": "Diplômé dans le domaine Droit, Économie, Gestion",
+        "specialization": "E-Commerce et Marketing Numérique",
+        "institution": "EFTG (École de Formation en Techniques de Gestion) Algérie, en partenariat avec UNIVERSITE AMIENS PICARDIE JULES VERNE, France",
+        "average": "Moyenne Cumulative des 3 années: 13.82 soit 2.97/4.3"
+      },
+      {
+        "period": "2021 - 2024",
+        "selfEducation": "Auto-formation en Développement Web",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "Python",
+          "SQL"
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications et Formations Complémentaires",
+    "list": [
+      {
+        "title": "FreeCodeCamp",
+        "certificates": [
+          "JavaScript Algorithms and Data Structures",
+          "Scientific Computing with Python"
+        ]
+      },
+      {
+        "title": "CS50",
+        "description": "Cours complet d'introduction à l'informatique (Algorithmes, Structures de données, C, Python, SQL, Développement web, Cybersécurité...)"
+      },
+      {
+        "title": "PY4E",
+        "description": "Python for Everybody Full Course"
+      },
+      {
+        "title": "Autres cours",
+        "description": "Git, GitHub, ReactJs, NodeJs"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Expérience Professionnelle",
+    "list": [
+      {
+        "period": "2021 - 2024",
+        "role": "Développeur Web Freelance",
+        "tasks": [
+          "Collaboré directement avec les clients pour comprendre leurs besoins spécifiques et fourni des solutions techniques sur mesure.",
+          "Développé et déployé des sites web incluant :",
+          {
+            "title": "Landing Page",
+            "details": [
+              "Créée from scratch sans framework (HTML, CSS, JavaScript).",
+              "Site web dynamique avec animations et prise en charge du multilingue via JSON pour le contenu.",
+              "Formulaire de contact fonctionnel via EmailJS.",
+              "Optimisation du SEO, du design UI/UX et responsive design."
+            ]
+          },
+          {
+            "title": "Site e-commerce",
+            "details": [
+              "Créé from scratch sans framework (HTML, CSS, JavaScript).",
+              "Système de panier fonctionnel via local storage.",
+              "Intégration d'un carousel et d'un formulaire de contact via EmailJS.",
+              "Optimisation du SEO, du design UI/UX et responsive design.",
+              "Actuellement en refonte vers une version multipage avec React."
+            ]
+          },
+          {
+            "title": "Portfolios Personnels",
+            "details": [
+              "Développés avec ReactJs et déployés sur Netlify, mettant en avant mes capacités de développement web.",
+              "Incluent une sélection de projets, dont les deux sites précédemment mentionnés, les projets de certifications et bien d'autres réalisations."
+            ]
+          }
+        ]
+      },
+      {
+        "period": "06-2021 à 08-2021",
+        "role": "Stagiaire Community Manager - Onirique Event",
+        "tasks": [
+          "Assuré la maintenance technique du site web, incluant la révision CSS et la migration vers HTTPS.",
+          "Prospecté et élargi la base de données de nouveaux fournisseurs.",
+          "Géré la récupération des commandes chez les fournisseurs et vérifié leur conformité avec les factures.",
+          "Contribué aux opérations sur le terrain et en atelier."
+        ]
+      },
+      {
+        "period": "2014 - 2018",
+        "role": "Chef de Chantier / Gérant - Entreprise de Travaux Gaz Achouri Yassine, Khenchela",
+        "tasks": [
+          "Géré les opérations logistiques quotidiennes (fournitures, équipements).",
+          "Coordonné les équipes pour la bonne exécution des travaux, en respectant les délais et les normes.",
+          "Géré les stocks et les approvisionnements en matériaux.",
+          "Créé des fichiers Excel pour analyser les appels d'offres et les soumissions."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences Techniques",
+    "list": [
+      {
+        "category": "Langages",
+        "items": ["JavaScript", "Python", "SQL"]
+      },
+      {
+        "category": "Frameworks & Bibliothèques",
+        "items": ["React", "Node.js"]
+      },
+      {
+        "category": "Outils & Plateformes",
+        "items": [
+          "Git",
+          "GitHub",
+          "Netlify",
+          "Microsoft Office",
+          "FreeCodeCamp (formations)",
+          "LeetCode (résolution d'algorithmes)"
+        ]
+      },
+      {
+        "category": "Langages de balisage / Styles",
+        "items": ["HTML", "CSS"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets",
+    "list": [
+      {
+        "title": "Portfolio Personnel",
+        "url": "https://chawkii-react-portfolio2.netlify.app/",
+        "description": "Ce site, développé avec React et déployé sur Netlify, met en avant une sélection de projets réalisés from scratch."
+      },
+      {
+        "title": "Landing Page (Avocat à la cour)",
+        "url": "https://chawkii-avocat-temp.netlify.app/"
+      },
+      {
+        "title": "Site E-commerce (Atelier de Broderie)",
+        "url": "https://bbroderie-confection.netlify.app/"
+      },
+      {
+        "title": "Autre de mes Portfolios personnels",
+        "url": "https://chawkii-react-portfolio1.netlify.app/",
+        "description": "Ce portfolio comprend des liens vers d'autres de mes projets."
+      }
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "list": [
+      {
+        "language": "Français",
+        "level": "Courant (langue d'usage)"
+      },
+      {
+        "language": "Anglais",
+        "level": "Courant (lu, parlé, écrit)"
+      },
+      {
+        "language": "Arabe",
+        "level": "Natif"
+      }
+    ]
+  },
+  "interests": {
+    "title": "Centres d'Intérêt",
+    "list": [
+      "Développement Personnel",
+      "Technologies Web",
+      "Jeux d'échecs",
+      "Voyages"
+    ]
+  }
+}

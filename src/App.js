@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import LangButton from "./components/LangButton";
+import Main from "./components/Main";
+import en from "./locales/en.json";
+import fr from "./locales/fr.json";
+import ar from "./locales/ar.json";
 
-function App() {
+const App = () => {
+  const [language, setLanguage] = useState("fr");
+
+  // Utilisation d'un objet pour gérer les traductions
+  const translations = { fr, ar, en };
+
+  // Sélectionne le contenu en fonction de la langue
+  const content = translations[language] || translations.fr; // Défaut à français
+
+  const changeLanguage = (lang) => {
+    setLanguage(lang);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <LangButton changeLanguage={changeLanguage} />
+      <Main content={content} /> {/* Pass content directly to Main */}
     </div>
   );
-}
+};
 
 export default App;
