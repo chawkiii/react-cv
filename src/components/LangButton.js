@@ -6,7 +6,9 @@ const LangButton = ({ changeLanguage, toggleDarkMode }) => {
       <button onClick={() => changeLanguage("fr")}>Français</button>
       <button onClick={() => changeLanguage("en")}>English</button>
       <button onClick={() => changeLanguage("ar")}>العربية</button>
-      <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
+      <button className="dark-mode-btn" onClick={toggleDarkMode}>
+        Dark Mode
+      </button>
     </div>
   );
 };
