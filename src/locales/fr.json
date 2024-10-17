@@ -4,9 +4,15 @@
     "jobTitle": "Développeur Web",
     "contact": {
       "email": "achouriichawkii@gmail.com",
-      "github": "https://github.com/chawkiii",
-      "linkedin": "https://www.linkedin.com/in/achouriichawkii/",
-      "whatsapp": "+213561459445"
+      "github": {
+        "link": "https://github.com/chawkiii",
+        "title": "chawkiii"
+      },
+      "linkedin": {
+        "link": "https://www.linkedin.com/in/achouriichawkii/",
+        "title": "achouriichawkii"
+      },
+      "whatsapp": "(+213) 561 459 445"
     }
   },
   "formation": {
@@ -14,10 +20,9 @@
     "list": [
       {
         "period": "2018 - 2021",
-        "degree": "Diplômé dans le domaine Droit, Économie, Gestion",
-        "specialization": "E-Commerce et Marketing Numérique",
+        "degree": "Diplômé dans le domaine Droit, Économie, Gestion E-Commerce et Marketing Numérique",
         "institution": "EFTG (École de Formation en Techniques de Gestion) Algérie, en partenariat avec UNIVERSITE AMIENS PICARDIE JULES VERNE, France",
-        "average": "Moyenne Cumulative des 3 années: 13.82 soit 2.97/4.3"
+        "average": "Moyenne cumulative: 13.82 soit 2.97/4.3"
       },
       {
         "period": "2021 - 2024",
@@ -39,10 +44,16 @@
     "list": [
       {
         "title": "FreeCodeCamp",
-        "certificates": [
-          "JavaScript Algorithms and Data Structures",
-          "Scientific Computing with Python"
-        ]
+        "certificates": {
+          "js": {
+            "title": "JavaScript Algorithms and Data Structures",
+            "link": "https://www.freecodecamp.org/certification/chawki/javascript-algorithms-and-data-structures-v8"
+          },
+          "python": {
+            "title": "Scientific Computing with Python",
+            "link": "https://www.freecodecamp.org/certification/chawki/scientific-computing-with-python-v7"
+          }
+        }
       },
       {
         "title": "CS50",
@@ -151,7 +162,7 @@
       {
         "title": "Portfolio Personnel",
         "url": "https://chawkii-react-portfolio2.netlify.app/",
-        "description": "Ce site, développé avec React et déployé sur Netlify, met en avant une sélection de projets réalisés from scratch."
+        "description": "Développé avec React et déployé sur Netlify, met en avant une sélection de projets réalisés from scratch."
       },
       {
         "title": "Landing Page (Avocat à la cour)",

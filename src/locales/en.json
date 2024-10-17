@@ -4,11 +4,18 @@
     "jobTitle": "Web Developer",
     "contact": {
       "email": "achouriichawkii@gmail.com",
-      "github": "https://github.com/chawkiii",
-      "linkedin": "https://www.linkedin.com/in/achouriichawkii/",
-      "whatsapp": "+213561459445"
+      "github": {
+        "link": "https://github.com/chawkiii",
+        "title": "chawkiii"
+      },
+      "linkedin": {
+        "link": "https://www.linkedin.com/in/achouriichawkii/",
+        "title": "achouriichawkii"
+      },
+      "whatsapp": "(+213) 561 459 445"
     }
   },
+
   "formation": {
     "title": "Education",
     "list": [
@@ -35,14 +42,20 @@
     ]
   },
   "certifications": {
-    "title": "Certifications and Additional Training",
+    "title": "Certifications et Formations Complémentaires",
     "list": [
       {
         "title": "FreeCodeCamp",
-        "certificates": [
-          "JavaScript Algorithms and Data Structures",
-          "Scientific Computing with Python"
-        ]
+        "certificates": {
+          "js": {
+            "title": "JavaScript Algorithms and Data Structures",
+            "link": "https://www.freecodecamp.org/certification/chawki/javascript-algorithms-and-data-structures-v8"
+          },
+          "python": {
+            "title": "Scientific Computing with Python",
+            "link": "https://www.freecodecamp.org/certification/chawki/scientific-computing-with-python-v7"
+          }
+        }
       },
       {
         "title": "CS50",
@@ -151,7 +164,7 @@
       {
         "title": "Personal Portfolio",
         "url": "https://chawkii-react-portfolio2.netlify.app/",
-        "description": "This site, developed with React and deployed on Netlify, showcases a selection of projects created from scratch."
+        "description": "Developed with React and deployed on Netlify, showcases a selection of projects created from scratch."
       },
       {
         "title": "Landing Page (Court Lawyer)",

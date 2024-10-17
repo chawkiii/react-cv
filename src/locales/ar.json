@@ -4,9 +4,15 @@
     "jobTitle": "مطور ويب",
     "contact": {
       "email": "achouriichawkii@gmail.com",
-      "github": "https://github.com/chawkiii",
-      "linkedin": "https://www.linkedin.com/in/achouriichawkii/",
-      "whatsapp": "+213561459445"
+      "github": {
+        "link": "https://github.com/chawkiii",
+        "title": "chawkiii"
+      },
+      "linkedin": {
+        "link": "https://www.linkedin.com/in/achouriichawkii/",
+        "title": "achouriichawkii"
+      },
+      "whatsapp": "(+213) 561 459 445"
     }
   },
   "formation": {
@@ -35,14 +41,20 @@
     ]
   },
   "certifications": {
-    "title": "الشهادات والتدريب الإضافي",
+    "title": "الشهادات والدورات التكميلية",
     "list": [
       {
         "title": "FreeCodeCamp",
-        "certificates": [
-          "خوارزميات JavaScript وهياكل البيانات",
-          "الحوسبة العلمية باستخدام Python"
-        ]
+        "certificates": {
+          "js": {
+            "title": "خوارزميات وهياكل بيانات JavaScript",
+            "link": "https://www.freecodecamp.org/certification/chawki/javascript-algorithms-and-data-structures-v8"
+          },
+          "python": {
+            "title": "الحوسبة العلمية باستخدام Python",
+            "link": "https://www.freecodecamp.org/certification/chawki/scientific-computing-with-python-v7"
+          }
+        }
       },
       {
         "title": "CS50",
@@ -107,7 +119,7 @@
       },
       {
         "period": "2014 - 2018",
-        "role": "مدير موقع / مدير - شركة أعمال غاز عشواري ياسين، خنشلة",
+        "role": "مدير موقع / مدير - شركة أعمال غاز عاشوري ياسين، خنشلة",
         "tasks": [
           "أدرت العمليات اللوجستية اليومية (الإمدادات، المعدات).",
           "نسقت الفرق لضمان تنفيذ الأعمال بشكل صحيح، مع الالتزام بالمواعيد النهائية والمعايير.",
@@ -151,7 +163,7 @@
       {
         "title": "محفظة شخصية",
         "url": "https://chawkii-react-portfolio2.netlify.app/",
-        "description": "هذا الموقع، تم تطويره باستخدام React وتم نشره على Netlify، يعرض مجموعة من المشاريع التي تم إنشاؤها من الصفر."
+        "description": "تم تطويره باستخدام React وتم نشره على Netlify، يعرض مجموعة من المشاريع التي تم إنشاؤها من الصفر."
       },
       {
         "title": "صفحة هبوط (محامي محكمة)",

@@ -1,11 +1,12 @@
 import React from "react";
 
-const LangButton = ({ changeLanguage }) => {
+const LangButton = ({ changeLanguage, toggleDarkMode }) => {
   return (
-    <div>
+    <div className="buttons-container">
       <button onClick={() => changeLanguage("fr")}>Français</button>
       <button onClick={() => changeLanguage("en")}>English</button>
       <button onClick={() => changeLanguage("ar")}>العربية</button>
+      <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
     </div>
   );
 };

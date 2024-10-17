@@ -7,21 +7,21 @@ import ar from "./locales/ar.json";
 
 const App = () => {
   const [language, setLanguage] = useState("fr");
+  const [darkMode, setDarkMode] = useState(false); // Pour le mode sombre
 
-  // Utilisation d'un objet pour gérer les traductions
   const translations = { fr, ar, en };
+  const content = translations[language] || translations.fr;
 
-  // Sélectionne le contenu en fonction de la langue
-  const content = translations[language] || translations.fr; // Défaut à français
-
-  const changeLanguage = (lang) => {
-    setLanguage(lang);
-  };
+  const changeLanguage = (lang) => setLanguage(lang);
+  const toggleDarkMode = () => setDarkMode(!darkMode); // Basculer mode sombre
 
   return (
-    <div>
-      <LangButton changeLanguage={changeLanguage} />
-      <Main content={content} /> {/* Pass content directly to Main */}
+    <div className={darkMode ? "dark-mode" : ""}>
+      <LangButton
+        changeLanguage={changeLanguage}
+        toggleDarkMode={toggleDarkMode}
+      />
+      <Main content={content} />
     </div>
   );
 };
